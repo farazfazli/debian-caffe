@@ -12,3 +12,4 @@ Running on modified Jessie http://forum.pine64.org/showthread.php?tid=497
 4. Modify Makefile.config to be CPU only (unless your board has an embedded GPU, like the Jetson) and include hdf5.h (/usr/local/include/hdf5/serial) manually
 5. Create a swap file following https://digitizor.com/create-swap-file-ubuntu-linux/ (optional)
 6. make all -j4 && make pycaffe -j4 && make distribute
+7. Get all python dependencies
